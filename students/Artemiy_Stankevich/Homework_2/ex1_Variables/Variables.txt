@@ -1,0 +1,20 @@
+Количество кораблей в порту - countShipsInPort
+Счетчик целых чисел - countInteger
+Первое число - firstNum
+Ответ на вопрос - answerQuestion
+Случайное число - randomNum
+Генератор случайных чисел - randomNumGenerator
+Цвет автомобиля - colorCar
+Скорость движения автомобиля - speedCar
+Введеное число пользователем - inputNumUser
+Наибольшее число - maxNumber
+Наименьшее число - minNumber
+Левая граница диапазона чисел - leftBorderNumRange
+Правая граница диапазона чисел - rightBorderNumRange
+Загаданное пользователем число - userSpecifiedNum
+Вариант ответа - possibleAnswer
+Банковский счет - bankAccount
+Банковский баланс - bankBalance
+Кредитная карта - creditCard
+Количество колес у велосипеда - numWheelsBicycle
+Стоимость билета - costTicket
