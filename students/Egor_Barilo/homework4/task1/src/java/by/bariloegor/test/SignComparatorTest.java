@@ -10,7 +10,7 @@ public class SignComparatorTest {
         if(result){
             System.out.println("\n[INFO] " + testName + " test passed successfully.");
         } else {
-            System.out.println("\n[ERROR] " + testName + " test is failed.");
+            System.out.println("\n[ERROR] " + testName + " test failed.Expected '" + expected + "' but was '" + actual + "'");
         }
     }
 
