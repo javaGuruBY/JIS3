@@ -11,7 +11,7 @@ public class UserLogin {
         userLoginTest.userLoginTest();
 
         UserLoginService userLoginService = new UserLoginService();
-        User firstUser = new User("Egor", "12345", Settings.MAX_LOGIN_ATTEMPTS);
+        User firstUser = new User("Egor", "12345");
         userLoginService.login(firstUser, "12345");
     }
 }
