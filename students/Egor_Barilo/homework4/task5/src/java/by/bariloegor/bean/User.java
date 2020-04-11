@@ -9,10 +9,10 @@ public class User implements Serializable{
     private boolean blocked;
     private int maxLoginAttemptsLeft;
 
-    public User(String login, String password, int maxLoginAttemptsLeft) {
+    public User(String login, String password) {
         this.login = login;
         this.password = password;
-        this.maxLoginAttemptsLeft = maxLoginAttemptsLeft;
+        this.maxLoginAttemptsLeft = Settings.MAX_LOGIN_ATTEMPTS;
     }
 
     public User() {
