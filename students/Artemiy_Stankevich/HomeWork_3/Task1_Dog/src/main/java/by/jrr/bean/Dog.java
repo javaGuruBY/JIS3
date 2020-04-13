@@ -1,4 +1,5 @@
-package bean;
+package by.jrr.bean;
+
 import java.util.Objects;
 
 public class Dog implements java.io.Serializable {
@@ -8,6 +9,11 @@ public class Dog implements java.io.Serializable {
     private String  color;
 
     public Dog() {
+    }
+    public Dog (String name, int age, String color) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
     }
 
     public void setName(String name) {
@@ -40,8 +46,8 @@ public class Dog implements java.io.Serializable {
         if (o == null || getClass() != o.getClass()) return false;
         Dog dog = (Dog) o;
         return age == dog.age &&
-                name.equals(dog.name) &&
-                color.equals(dog.color);
+                Objects.equals(name, dog.name) &&
+                Objects.equals(color, dog.color);
     }
 
     @Override
