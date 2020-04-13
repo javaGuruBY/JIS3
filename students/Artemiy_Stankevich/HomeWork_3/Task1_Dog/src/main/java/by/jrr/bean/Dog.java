@@ -17,7 +17,7 @@ public class Dog implements java.io.Serializable {
     }
 
     public void setName(String name) {
-        if (name.equals("")) this.name = name; else System.out.println("Ошибка: Собака должна быть с именем");
+        this.name = name;
     }
 
     public String getName() {
@@ -25,7 +25,7 @@ public class Dog implements java.io.Serializable {
     }
 
     public void setAge(int age) {
-        if (age > 0) this.age = age; else System.out.println("Ошибка: возраст собаки не может быть отрицательным");
+        this.age = age;
     }
 
     public int getAge() {
@@ -33,8 +33,7 @@ public class Dog implements java.io.Serializable {
     }
 
     public void setColor(String color) {
-        if (color.equals("")) this.color = color;
-        else System.out.println("Ошибка: собака не может быть безцветной");
+        this.color = color;
     }
     public String getColor() {
         return color;
