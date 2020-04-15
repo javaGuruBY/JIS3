@@ -1,0 +1,15 @@
+2020-04-15 20:19:23 [main] by.jrr.App.main()
+INFO: counter.getValue(); 
+        counter.getStep();  
+        counter.increment();
+        counter.getValue(); 
+        counter.setStep(5);
+        counter.increment();
+        counter.setStep(2);
+        counter.decrement();
+        counter.getValue(); 
+        counter.getStep();
+2020-04-15 20:19:23 [main] by.jrr.App.main()
+INFO: get final value of counter
+2020-04-15 20:19:23 [main] by.jrr.App.main()
+INFO: 4
