@@ -1,0 +1,16 @@
+2020-04-15 22:15:29 [main] by.jrr.service.BookService.main()
+INFO: book.getNumberOfPages()
+2020-04-15 22:15:29 [main] by.jrr.service.BookService.main()
+INFO: 20
+2020-04-15 22:15:29 [main] by.jrr.service.BookService.main()
+INFO: book.getTitle()
+2020-04-15 22:15:29 [main] by.jrr.service.BookService.main()
+INFO: someTitle
+2020-04-15 22:15:29 [main] by.jrr.service.BookService.main()
+INFO: book.getAuthor()
+2020-04-15 22:15:29 [main] by.jrr.service.BookService.main()
+INFO: someAuthor
+2020-04-15 22:15:29 [main] by.jrr.service.BookService.main()
+INFO: book
+2020-04-15 22:15:29 [main] by.jrr.service.BookService.main()
+INFO: Book{author='someAuthor', title='someTitle', numberOfPages=20}
