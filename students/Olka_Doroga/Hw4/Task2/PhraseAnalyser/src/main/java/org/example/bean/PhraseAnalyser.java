@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Objects;
 
 public class PhraseAnalyser implements Serializable {
-    String text;
+    private String text;
 
     public PhraseAnalyser() {
     }
