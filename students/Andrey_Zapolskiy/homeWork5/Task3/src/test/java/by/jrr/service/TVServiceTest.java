@@ -50,6 +50,6 @@ class TVServiceTest {
         TVService tvService = new TVService();
         tvService.volumeDown(tv);
 
-        assertEquals(expectedResult, tv.getCurrentVolume(), "previous channel should be 8");
+        assertEquals(expectedResult, tv.getCurrentVolume(), "current volume should be 8");
     }
 }
