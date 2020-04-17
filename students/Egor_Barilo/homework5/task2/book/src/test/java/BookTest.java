@@ -59,7 +59,7 @@ class BookTest {
     void toStringTest(){
         String expected = "Book{author='George Orwell', name='1984', numberOfPages=328}";
         String actual = book.toString();
-        assertEquals(expected, actual);
+        assertEquals(expected, actual, "Strings should be same.");
     }
 
     @Test
