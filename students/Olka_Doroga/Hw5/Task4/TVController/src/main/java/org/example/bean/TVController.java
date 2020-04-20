@@ -2,7 +2,7 @@ package org.example.bean;
 
 import java.util.Objects;
 
-public class TVController {
+public class TVController implements Serializable {
     private boolean connectedTv = false;
 
     public TVController() {
