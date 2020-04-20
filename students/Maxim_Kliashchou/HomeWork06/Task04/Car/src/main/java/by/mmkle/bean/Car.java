@@ -12,6 +12,12 @@ public class Car implements Serializable {
     public Car() {
     }
 
+    public Car(String model, String color, int maxSpeed) {
+        this.model = model;
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+    }
+
     public String getModel() {
         return model;
     }
