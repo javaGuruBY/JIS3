@@ -2,7 +2,7 @@ package org.example.bean;
 
 import java.util.Objects;
 
-public class Book {
+public class Book implements Serializable {
     private String author;
     private String title;
     private int numberOfPages;
