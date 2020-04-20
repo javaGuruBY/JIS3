@@ -2,7 +2,7 @@ package org.example.bean;
 
 import java.util.Objects;
 
-public class TV {
+public class TV implements Serializable {
     private int currentChannel = 1;
     private int currentVolume = 5;
     private String manufacturer;
