@@ -2,7 +2,7 @@ package service;
 
 import bean.TV;
 
-public class TvService {
+public  class TvService {
 
     public void turnOnTv(TV tv){
         tv.setPowerOn(true);
@@ -35,4 +35,6 @@ public class TvService {
             tv.setCurrentVolume(tv.getCurrentVolume() - 1);
         }
     }
+
+
 }

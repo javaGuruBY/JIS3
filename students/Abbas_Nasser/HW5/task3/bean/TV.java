@@ -16,6 +16,10 @@ public class TV implements Serializable {
         this.powerOn = powerOn;
     }
 
+    public TV() {
+
+    }
+
     public int getCurrentChannel() {
         return currentChannel;
     }
