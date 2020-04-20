@@ -2,7 +2,7 @@ package org.example.bean;
 
 import java.util.Objects;
 
-public class Counter {
+public class Counter implements Serializable {
     private int value;
     private int step;
 
