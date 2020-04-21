@@ -17,7 +17,7 @@ public class OddCheckerService {
     public static void whileOddChecker(){
         Logger log = LoggerFactory.getLogger(OddCheckerService.class);
         int i = 0;
-        while(i<50){
+        while(i <= 50){
             if(i % 2 != 0){
                 String oddNumber = Double.toString(i);
                 log.info(oddNumber);
@@ -35,6 +35,6 @@ public class OddCheckerService {
                 log.info(oddNumber);
             }
             i++;
-        } while(i<=50);
+        } while(i < 50);
     }
 }
