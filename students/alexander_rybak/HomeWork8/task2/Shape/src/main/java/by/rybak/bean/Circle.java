@@ -2,7 +2,7 @@ package by.rybak.bean;
 
 import by.rybak.interfaces.Shape;
 
-public class Circle extends AbstractShape implements Shape {
+public class Circle extends AbstractShape {
     private double radius;
 
     public Circle(double radius) {
