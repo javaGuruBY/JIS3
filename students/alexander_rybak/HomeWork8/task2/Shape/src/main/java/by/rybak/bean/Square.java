@@ -2,7 +2,7 @@ package by.rybak.bean;
 
 import by.rybak.interfaces.Shape;
 
-public class Square extends AbstractShape implements Shape {
+public class Square extends AbstractShape {
     private double side;
 
     public Square(double side) {
