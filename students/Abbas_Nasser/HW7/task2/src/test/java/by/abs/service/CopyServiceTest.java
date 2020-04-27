@@ -8,7 +8,7 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CopyServiceTest {
-    private CopyService service;
+ CopyService service;
 
     @BeforeEach
     void setUp() {
@@ -17,7 +17,7 @@ class CopyServiceTest {
 
     @Test
     void copyInRange() {
-        String testMessage = "Should return new array with elements in range";
+        String testMessage = "mst return an array with elements in range";
         int[] leftBound = {8,9};
         int[] rightBound = {9,10};
         int[][] array = {
