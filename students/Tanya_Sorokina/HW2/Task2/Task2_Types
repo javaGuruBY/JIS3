@@ -17,4 +17,4 @@
 Четное ли число - boolean;
 Текущий год - short; int; long;
 Знак пробела - char;
-Стоимость билета - byte; short; int; long; double; float;
+Стоимость билета - double;
