@@ -1,7 +1,7 @@
 package service;
 
 public class EncoderService {
-    public void encode(short code){
+    public void encode(int code){
         System.out.println(code + " => '" + (char)code + "'");
     }
 
