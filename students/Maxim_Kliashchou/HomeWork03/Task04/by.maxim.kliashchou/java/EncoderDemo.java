@@ -5,7 +5,7 @@ public class EncoderDemo {
         EncoderService encoderService = new EncoderService();
 
 
-        encoderService.encode((short) 65);
+        encoderService.encode((int) 65);
         encoderService.decode('X');
     }
 }
