@@ -1,0 +1,20 @@
+Количество кораблей в порту           int, byte, long, short
+Счетчик целых чисел                   int, byte, long, short
+Первое целое число                    int, byte, long, short
+Случайное целое число                 int, byte, long, short, float
+Случайное вещественное число          int, byte, long, short, double
+Скорость движения автомобиля          int, byte, long, short, double
+Введенное пользователем целое число   int, byte, long, short
+Наибольшее целое число                int, byte, long, short
+Наименьшее вещественное число         int, byte, long, short, double
+Левая граница диапазона целых чисел   int, byte, long, short
+Правая граница диапазона целых чисел  int, byte, long, short
+Загаданное пользователем целое число  int, byte, long, short
+Денежный баланс                       int, byte, long, short, double, float
+Количество колес у велосипеда         int, byte, long, short
+Голодный ли человек                   boolean, string
+Символ латинского алфавита            string
+Четное ли число                       boolean, string
+Текущий год                           int, byte, long, short
+Знак пробела                          string
+Стоимость билета                      int, byte, long, short
