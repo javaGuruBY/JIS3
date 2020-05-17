@@ -1,0 +1,29 @@
+2020-05-17 16:14:35 INFO  UserRepositoryTest:21 - setUp
+2020-05-17 16:14:35 INFO  UserRepositoryTest:43 - saveTest
+2020-05-17 16:14:35 INFO  UserRepository:26 - User with id number: 15 has been saved
+2020-05-17 16:14:35 INFO  UserRepository:26 - User with id number: 16 has been saved
+2020-05-17 16:14:35 INFO  UserRepositoryTest:26 - setDown
+2020-05-17 16:14:35 INFO  UserRepositoryTest:21 - setUp
+2020-05-17 16:14:35 INFO  UserRepositoryTest:32 - getListUsersTest
+2020-05-17 16:14:35 INFO  UserRepositoryTest:26 - setDown
+2020-05-17 19:19:10 INFO  UserRepositoryTest:22 - setUp
+2020-05-17 19:19:10 INFO  UserRepositoryTest:44 - saveTest
+2020-05-17 19:19:10 INFO  UserRepositoryTest:27 - setDown
+2020-05-17 19:19:10 INFO  UserRepositoryTest:22 - setUp
+2020-05-17 19:19:10 INFO  UserRepositoryTest:33 - getListUsersTest
+2020-05-17 19:19:10 INFO  UserRepositoryTest:27 - setDown
+2020-05-17 19:19:36 INFO  UserRepositoryTest:22 - setUp
+2020-05-17 19:19:36 INFO  UserRepositoryTest:44 - saveTest
+2020-05-17 19:19:36 INFO  UserRepositoryTest:27 - setDown
+2020-05-17 19:19:36 INFO  UserRepositoryTest:22 - setUp
+2020-05-17 19:19:36 INFO  UserRepositoryTest:33 - getListUsersTest
+2020-05-17 19:19:36 INFO  UserRepositoryTest:27 - setDown
+2020-05-17 21:29:19 INFO  UserRepositoryTest:22 - setUp
+2020-05-17 21:29:19 INFO  UserRepositoryTest:44 - saveTest
+2020-05-17 21:29:19 INFO  UserRepositoryTest:27 - setDown
+2020-05-17 21:29:19 INFO  UserRepositoryTest:22 - setUp
+2020-05-17 21:29:19 INFO  UserRepositoryTest:33 - getListUsersTest
+2020-05-17 21:29:19 INFO  UserRepositoryTest:27 - setDown
+2020-05-17 21:30:16 INFO  UserRepositoryTest:22 - setUp
+2020-05-17 21:30:16 INFO  UserRepositoryTest:44 - saveTest
+2020-05-17 21:30:16 INFO  UserRepositoryTest:27 - setDown
