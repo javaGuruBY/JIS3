@@ -9,6 +9,15 @@ public class Product {
     private BigDecimal price;
     private BigDecimal discount;
     private Category category;
+    private String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public Category getCategory() {
         return category;

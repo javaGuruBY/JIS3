@@ -34,11 +34,14 @@ class ShoppingListApplication {
                         if (discount.compareTo(new BigDecimal(100)) > 0){
                             throw new CreateProductException("Discount can't be more than 100");
                         }
+                        System.out.println("Enter product description: ");
+                        String description = scanner.nextLine();
                         Product product = new Product();
                         product.setName(name);
                         product.setPrice(price);
                         product.setId(productIdSequence);
                         product.setDiscount(discount);
+                        product.setDescription(description);
                         productRepository.put(productIdSequence, product);
                         productIdSequence++;
                         System.out.println("Result: " + product.getId());
