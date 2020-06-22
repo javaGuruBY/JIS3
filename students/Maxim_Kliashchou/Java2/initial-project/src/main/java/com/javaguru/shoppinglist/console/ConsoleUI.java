@@ -1,14 +1,15 @@
 package com.javaguru.shoppinglist.console;
 
 import com.javaguru.shoppinglist.bean.Product;
-import com.javaguru.shoppinglist.bean.ShopingCart;
+import com.javaguru.shoppinglist.repository.ProductRepository;
 import com.javaguru.shoppinglist.service.ProductService;
+import com.javaguru.shoppinglist.service.validation.ProductValidationService;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class ConsoleUI {
-    private ProductService productService = new ProductService();
+    private ProductService productService = new ProductService(new ProductRepository(), new ProductValidationService());
     public void execute(){
         while (true) {
             Scanner scanner = new Scanner(System.in);

@@ -16,6 +16,14 @@ public class Product implements Serializable {
     public Product() {
     }
 
+    public Product(String name, BigDecimal price, BigDecimal discount, Category category, String description) {
+        this.name = name;
+        this.price = price;
+        this.discount = discount;
+        this.category = category;
+        this.description = description;
+    }
+
     public String getDescription() {
         return description;
     }

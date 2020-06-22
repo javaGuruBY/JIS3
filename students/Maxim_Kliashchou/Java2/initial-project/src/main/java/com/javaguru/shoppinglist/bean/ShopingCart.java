@@ -7,13 +7,22 @@ import java.util.Objects;
 
 public class ShopingCart implements Serializable {
     private String name;
-    public List<Product> productList = new ArrayList<>();
+    private List<Product> productList = new ArrayList<>();
+
 
     public ShopingCart() {
     }
 
     public ShopingCart(String name) {
         this.name = name;
+    }
+
+    public void setProductList(List<Product> productList) {
+        this.productList = productList;
+    }
+
+    public List<Product> getProductList() {
+        return productList;
     }
 
     public String getName() {
