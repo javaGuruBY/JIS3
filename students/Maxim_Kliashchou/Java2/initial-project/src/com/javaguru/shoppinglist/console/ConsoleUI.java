@@ -1,6 +1,7 @@
 package com.javaguru.shoppinglist.console;
 
 import com.javaguru.shoppinglist.bean.Product;
+import com.javaguru.shoppinglist.bean.ShopingCart;
 import com.javaguru.shoppinglist.service.ProductService;
 
 import java.math.BigDecimal;

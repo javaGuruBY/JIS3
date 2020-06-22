@@ -1,8 +1,10 @@
 package com.javaguru.shoppinglist.bean;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.Objects;
 
-public class Product {
+public class Product implements Serializable {
 
     private Long id;
     private String name;
@@ -10,6 +12,9 @@ public class Product {
     private BigDecimal discount;
     private Category category;
     private String description;
+
+    public Product() {
+    }
 
     public String getDescription() {
         return description;
@@ -57,6 +62,24 @@ public class Product {
 
     public void setPrice(BigDecimal price) {
         this.price = price;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Product product = (Product) o;
+        return Objects.equals(id, product.id) &&
+                Objects.equals(name, product.name) &&
+                Objects.equals(price, product.price) &&
+                Objects.equals(discount, product.discount) &&
+                category == product.category &&
+                Objects.equals(description, product.description);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, price, discount, category, description);
     }
 
     @Override
