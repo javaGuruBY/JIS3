@@ -2,10 +2,12 @@ package com.javaguru.shoppinglist.service;
 
 import com.javaguru.shoppinglist.bean.Product;
 import com.javaguru.shoppinglist.bean.ShopingCart;
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.util.List;
 
+@Component
 public class ShopingCartService {
 
     public void addProductToCart(ShopingCart shopingCart, Product product){

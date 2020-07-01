@@ -12,6 +12,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.mockito.runners.MockitoJUnitRunner;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -27,6 +28,7 @@ public class ProductServiceTest {
     private ProductValidationService validationService;
 
     @InjectMocks
+    @Autowired
     private ProductService service;
 
     private Product product;
@@ -34,7 +36,7 @@ public class ProductServiceTest {
 
     @Before
     public void setUp() throws Exception {
-        service = new ProductService(productRepository, validationService);
+        //service = new ProductService(productRepository, validationService);
         product = new Product("name", new BigDecimal(100), new BigDecimal(10), Category.SOME_CATEGORY, "description");
         product.setId(0L);
     }

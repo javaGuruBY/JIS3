@@ -1,10 +1,13 @@
 package com.javaguru.shoppinglist.bean;
 
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+@Component
 public class ShopingCart implements Serializable {
     private String name;
     private List<Product> productList = new ArrayList<>();

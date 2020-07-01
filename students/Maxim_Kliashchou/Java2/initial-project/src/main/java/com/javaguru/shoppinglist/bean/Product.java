@@ -1,9 +1,12 @@
 package com.javaguru.shoppinglist.bean;
 
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Objects;
 
+@Component
 public class Product implements Serializable {
 
     private Long id;

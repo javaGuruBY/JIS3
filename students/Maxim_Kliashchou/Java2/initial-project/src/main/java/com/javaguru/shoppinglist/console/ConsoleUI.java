@@ -4,12 +4,16 @@ import com.javaguru.shoppinglist.bean.Product;
 import com.javaguru.shoppinglist.repository.ProductRepository;
 import com.javaguru.shoppinglist.service.ProductService;
 import com.javaguru.shoppinglist.service.validation.ProductValidationService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
 
+@Component
 public class ConsoleUI {
-    private ProductService productService = new ProductService(new ProductRepository(), new ProductValidationService());
+    @Autowired
+    private ProductService productService;
     public void execute(){
         while (true) {
             Scanner scanner = new Scanner(System.in);
