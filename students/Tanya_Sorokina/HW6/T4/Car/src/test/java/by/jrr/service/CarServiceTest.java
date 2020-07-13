@@ -11,13 +11,6 @@ class CarServiceTest {
     Car car;
     CarService carService;
 
-//    @BeforeEach
-//    public init (){
-//        car = new Car();
-//        carService = new CarService();
-//
-//    }
-
     @Test
     void canAccelerateTest() {
         car = new Car();
