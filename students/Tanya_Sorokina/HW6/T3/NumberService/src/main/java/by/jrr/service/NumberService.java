@@ -19,13 +19,4 @@ public class NumberService {
         }
         return result;
     }
-
-
-//    public static int showTotalAmount(int value) {
-//        int result = 0;
-//        for (int i = 1; i <= value; i++) {
-//            result += i;
-//        }
-//        return result;
-//    }
 }
